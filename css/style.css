@@ -16,3 +16,12 @@ h3{
     font-weight: 400;
     font-style: normal;
 }
+section{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 10px;
+    grid-auto-flow: dense;
+}
+#red{
+    grid-column: 1 / 5;
+}
