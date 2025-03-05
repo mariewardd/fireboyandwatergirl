@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(61, 57, 43);
+    align-items: center;
+    justify-content: center;
+}
+header{
+    text-align:center;
+
+}
+h1{
+    font-family: "Jacques Francois Shadow", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h2{
+    font-family: "Passero One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h3{
+    font-family: "Passero One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#red{
+    width:50%;
+}
+
+#blue{
+    width:50%;
+}
+
+#character{
+    color:white;
+    
+}

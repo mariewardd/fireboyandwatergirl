@@ -17,17 +17,40 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Eater&family=Jacques+Francois+Shadow&family=Passero+One&family=Righteous&family=Rubik+Puddles&display=swap" rel="stylesheet">
 
-    </head>
-    <body>
-        <h1>FIREBOY & WATERGIRL</h1>
-        <h2>IN THE COMPUTER</h2>
-        <a href="start.html"><img src="img/playagain.png" width="300px"></a>
-        <img src="img/fireboy.png" width="300px">
-
-        <h3>THEY FINISHED! 
-
-            THE OLDEST GOT BORED SO NOW IT’S YOUR TURN. THINK YOU CAN DO BETTER?
+        <style>
+            header{
+                position: fixed;
+            }
+            #blank{
+                height:200px;
+            }
+            section{
+                display: grid;
+                grid-template-columns: repeat (3, auto);
+                grid-template-rows: repeat (3, auto);
+                justify-content: space-around;
+            }
+        </style>
+            </head>
             
-            PROVE IT.</h3>
+            <body>
+                <header>
+                    <img id="header" src="img/header.png" width="70%">
+                </header>
+        
+                <p id="blank">
+                </p>
+        <section>
+            <img id="stands" src="img/stands.png" width="100%">
+
+            <h3 id="finished">THEY FINISHED! 
+    
+                THE OLDEST GOT BORED SO NOW IT’S YOUR TURN. THINK YOU CAN DO BETTER?
+                
+                PROVE IT.</h3>
+
+            <a href="start.html"><img src="img/playagain.png" id="button"></a>
+
+        </section>
     </body>
 </html>
