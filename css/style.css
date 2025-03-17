@@ -69,24 +69,25 @@ section{
 }
 
 #popup:hover{
-    display: none;
     grid-column: 1;
     grid-row: 1 / 2;
     height: 50%;
+    opacity: 100%;
 }
 
 #watchsiblings:hover{
-    display: none;
     grid-column: 3;
     grid-row: 1 / 2;
-    height: 50%;
+    width: 80%;
+    opacity: 100%;
 }
 
 #popup{
-    display: block;
     grid-column: 1;
     grid-row: 1 / 2;
     height: 50%;
+    opacity: 0%;
+
 }
 
 #watchsiblings{
@@ -95,7 +96,8 @@ section{
     grid-row: 1 / 2;
     padding-left: 10%;
     padding-top: 5%;
-    width: 82%;
+    width: 80%;
+    opacity: 0%;
 }
 
 
